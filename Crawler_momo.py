@@ -135,12 +135,11 @@ df.info()
 
 # 儲存檔案
 
-number = "m11108024"
-name = "張博鈞"
-class_ = "食品・零食・飲料・生鮮"
-hw = "作業一"
 
-df.to_excel(f'./{number}_{name}_{class_}_{hw}.xlsx')
+class_ = "食品・零食・飲料・生鮮"
+
+
+df.to_excel(f'./{class_}.xlsx')
 
 
 
